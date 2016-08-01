@@ -275,9 +275,12 @@ references:
 
 # applications
 
-(these are all papers, or results from papers, none of them have an existing corresponding website.  i imagine for each of these making a mini website with a figure, caption, and links (to free version of paper, paid version, and code/talks/posters as appropriate)
+these are all papers, or results from papers, a subset of them have an existing corresponding website.  
+i imagine for each of these making a mini website with a figure, caption, and links (to free version of paper, paid version, and code/talks/posters as appropriate)
 
-(not sure how to organize: species? scale? modality? all options?)
+not sure how to organize: species? scale? modality? all options? chronologically seems like maybe the best option?
+
+
 
 - Nano-Cortical (Bobby paper)
 - Nano-hippocampal (Kristen paper)

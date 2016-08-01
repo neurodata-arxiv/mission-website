@@ -85,12 +85,14 @@ searching terms could include the data "type", species, etc.
 
  another option i am realizing is that we could have just 1 table after scrolling down:
 
- |   		| images  | time-series  | shapes  | vectors  | graphs | objects |
- |---		|---|---|---|---|  |  |
- | data 	|   |   |   |   | | |
- | store 	|   |   |   |   | | |
+
+ |   	| images  | time-series  | shapes  | matrices  | graphs | objects |
+ |---		     |---|---|---|---| | |
+ | data 	   |   |   |   |   | | |
+ | store   	 |   |   |   |   | | |
  | explore   |   |   |   |   | | |
  | analyze   |   |   |   |   | | |
+
 
 that you get when scrolling down, and clicking each "element" of the tale brings you to a (mobile compliant) pop-up showing the options within that.
 
@@ -173,7 +175,7 @@ in my head, the tools "main page", would contain a matrix of links, and each lin
 the outline is here: http://docs.neurodata.io/SIMPLEX/Reporting/reports/phase1/discovery.html
 
 not entirely sure what to call this section:
-experiments, use cases, applications.
+experiments, use cases, applications, model?
 
 but, it essentially includes a list of results.
 each result should have:
@@ -184,6 +186,9 @@ each result should have:
 - a summary
 - co-authors/contributors
 
+not sure how to organize them: species? scale? modality? all options?
+
+maybe in highlightable boxes organized chronologically?
 
 
 ## statistical science
