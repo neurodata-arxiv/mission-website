@@ -10,8 +10,6 @@ layout: default
 	- [top of site](#top-of-site)
 	- [data](#data)
 	- [tools](#tools)
-	- [applied neuroscience/experiments/use cases](#applied-neuroscienceexperimentsuse-cases)
-	- [statistical science](#statistical-science)
 	- [about/other](#aboutother)
 
 <!-- /TOC -->
@@ -26,17 +24,8 @@ i don't particularly like them, but their institutional goals are closely relate
 
 ## orgnaization thoughts
 
-we have FOUR major "threads" in our work:
 
-1. computer science
-2. big data curation
-3. statistical science
-4. applied neuroscience
-
-within each thread there are "projects".
-each project within a thread has commonality within thread.
-
-BUT, for the website, i think it probably makes sense to essentially have THREE threads:
+for the website, i think it probably makes sense to essentially have THREE threads:
 
 1. data
 2. tools
@@ -62,152 +51,88 @@ then, as you scroll down, you get to
 
 ## data
 
-when scrolling down to data, i could image a couple things.
-
-1. a matrix organized like http://neurodata.io/#browse, though with nicer pictures.  the downside of this is that it differentiates modalities,
-2. an interactive graphic that looks something like this:
-http://www.nature.com/neuro/journal/v17/n11/images/nn.3839-F1.jpg
-but each box/point would actually be clickable, and correspond to a particular dataset. the axes could be resolution and volume, or something like that.
-
-the above 2 ideas, however, in my head, are mostly for images,
-not for any of the other kind sof data.
-
-3. a link to search, while highlighting certain projects, somewhat like http://www.missionmedia.com/case-studies
-then, which projects got highlighted could change every few months or something, as we got new projects.  
-searching terms could include the data "type", species, etc.
-
-4. data could be organized in the same fashion as "tools", eg:
-   1. images
-   2. time-series
-   3. shapes
-   4. graphs
-   5. objects
-
- another option i am realizing is that we could have just 1 table after scrolling down:
+each "data project" could have any of the following "functionalities":
 
 
- |   	| images  | time-series  | shapes  | matrices  | graphs | objects |
- |---		     |---|---|---|---| | |
- | data 	   |   |   |   |   | | |
- | store   	 |   |   |   |   | | |
- | explore   |   |   |   |   | | |
- | analyze   |   |   |   |   | | |
+### ways to interact with data project that we support 
+- interactive exploration
+- share links/views of data
+- extend experiments/results
+- download data products
 
-
-that you get when scrolling down, and clicking each "element" of the tale brings you to a (mobile compliant) pop-up showing the options within that.
-
-and for example, clicking "shapes" pops-up an interactive graphic where each point/square is a different dataset (with axes being something like resolution and volume), or "graphs" has a similar interactive graphic (with axes being something like # veritces & # edges).
-
-
-
-the list of all bigdata curation projects is here: http://docs.neurodata.io/SIMPLEX/Reporting/reports/phase1/datafication.html
-
-we currently organize into:
-
-- electron & light microscopy images (images, including time-varying images)
-- annotation (shapes)
-- magnetic resonsance (MR) graphs (graphs)
-
-but if you look at http://openconnecto.me/graph-services/download/
-you see that we have many other graphs, not just MR,
-though i didn't have a particularly good way of getting the table together.
-
-i imagine the "main page" for data could have options for browse/search, as well as highlight certain projects.  
-ideally, search would enable filtering by data type (image, time-series, shape, graph, object), species, modality, etc., though this is not obviously in scope before SfN.
-
-the current projects page: http://neurodata.io/projects
-is obviously inadequate.
-
-
-each data project typically has the following parts:
-
-- visualize
-	- images
-	- graph (some images have corresponding graphs)
-	- shapes (some images have corresponding shapes)
-	- vectors (some images have corresponding vectors)
-- manuscript
+### stuff to read
+- manuscript(s)
 - media
-- experiments/results
-- tools (link to relevant tools)
-- downloads
+
+### other stuff that one might want to with data that is harder
+
+- lots of stuff, essentially, a subset of the tools are appropriate for for each data project (different subsets for different "kinds" of data projects).
+
+
+### other info for each data project
 - some beautiful images
-- a 1 sentence description
+- a 1-2 sentence description
 - license info
 - coauthors/contributors
+- tags (which kinds of data are there, modalities, species, etc., to facilitate searching)
 
-in theory, each project stores all the necessary metadata in our database, so, you could grab it with a URL.
-for example, the bock11 dataset metadata is available here:
-http://openconnecto.me/ocp/ca/bock11/info/
+the "data project homepage" could have a list of boxes highlighting each of the different projects, that are "filterable" by clicking various tags.
 
 
 
 ## tools
 
-here, i imagine the above table, with each element being clickable, and bringing the user to a page/slide that has the contents listed in the H2 headers in skeleton.md
+each "tool project" could have any of the following functionalities/links:
 
 
-the list of all projects is available in slide form here: http://docs.neurodata.io/ndintro/cs.htm
+### ways to interact with tools
+- read
+	- documentation
+	- API
+	- tutorials
+	- manuscript
+	- benchmarks
+	- installation/setup guide
+- generate issues
+- run (Web-apps available for some)
 
-and in outline form here: http://docs.neurodata.io/nddocs/cs.html
-
-each cs project typically has the following parts:
-
-- webpage
-- code
-- documentation
-- API
-- tutorials
-- issues
-- manuscript
-- benchmarks
-- installation/setup
+### other info for each tool project
+- webpage for tool
+- source code
 - several "highlights" bullets
 - an illustrative image
 - coauthors/contributors
-
-see here http://docs.neurodata.io/ndintro/cs.html#7 for some examples (slides are either cs projects or outline of slides).
-
-in my head, the tools "main page", would contain a matrix of links, and each link would essentially go to (either in a new page or just there) something like the slide.  note that the slide only has a subset of the content listed above.
-
-## applied neuroscience/experiments/use cases
-
-the outline is here: http://docs.neurodata.io/SIMPLEX/Reporting/reports/phase1/discovery.html
-
-not entirely sure what to call this section:
-experiments, use cases, applications, model?
-
-but, it essentially includes a list of results.
-each result should have:
-
-- manuscript
-- analysis
-- a figure
-- a summary
-- co-authors/contributors
-
-not sure how to organize them: species? scale? modality? all options?
-
-maybe in highlightable boxes organized chronologically?
+- tags (eg, which modality, data type, etc.)
 
 
-## statistical science
-
-the outline of the various projects is here: http://docs.neurodata.io/nddocs/stats.html
-i haven't yet created slides for each of the projects, but they each many of the following features:
-
-- manuscript
-- arxiv
-- figure
-- 1 sentence summary
-- code
-- co-authors/contributors
-
-like i said, it is not obvious that we need this.
-my guess is that it would confuse the users
+tool projects could be organized much like the data projects, a bunch of boxes, filterable by clicking various tags.
 
 
 ## about/other
 
 
 i feel like this one is just a footer with links to basic pages
+
+## actions people might want to take on some data
+
+not sure exactly what to do about these
+
+
+- Data store for existing data
+	- Look at some data?
+	- Show some data to my labmates/colleages?
+	- Download some data to play with on my computer?
+- Data store functions for new data
+	- Share my data?
+	- Explore my data?
+- Image analysis functions for your data
+	- 2D color correct data
+	- 3D color correct data
+	- Multimodal register to atlas
+	- Manually annotate some data
+	- Train my machine vision algorithm on some data?
+	- Run my machine vision algorithm at scale?
+	- Assess the performance of my classifiers?
+- various graph/matrix analysis things
+- estimating graph from data
+- ...
