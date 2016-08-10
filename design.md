@@ -5,12 +5,12 @@ layout: default
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-	- [related sites](#related-sites)
-	- [orgnaization thoughts](#orgnaization-thoughts)
-	- [top of site](#top-of-site)
-	- [data](#data)
-	- [tools](#tools)
-	- [about/other](#aboutother)
+- [related sites](#related-sites)
+- [orgnaization thoughts](#orgnaization-thoughts)
+- [top of site](#top-of-site)
+- [data](#data)
+- [tools](#tools)
+- [about/other](#aboutother)
 
 <!-- /TOC -->
 
