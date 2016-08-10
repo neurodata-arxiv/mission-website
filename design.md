@@ -39,7 +39,7 @@ not particularly useful for users in a certain sense.
 
 one of my favorite sites is:  http://jhu.edu is beautiful, especially the switching movies in the background.
 
-i could see using the movies [here](videos.md) as background movies on the top.
+i could see using the movies [here](videos.html) as background movies on the top.
 
 then, as you scroll down, you get to
 
