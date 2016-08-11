@@ -7,7 +7,6 @@ layout: default
 
 - [data](#data)
 - [tools](#tools)
-- [applications](#applications)
 - [about](#about)
 
 <!-- /TOC -->
@@ -54,8 +53,7 @@ layout: default
 1. ndtilecache (http://docs.neurodata.io/ndtilecache/api/tilecache_api.html, )
 1. graph explorer (gx.neurodata.io, https://github.com/neurodata/ExploratoryGraph, http://shiny.neurodata.io/lduan/graphX/)
 1. vector explorer (vx.neurodata.io)
-1. 2d hist (https://github.com/mkazhdan/DMG, http://www.cs.jhu.edu/~misha/MyPapers/ToG10.pdf)
-1. 3d hist (http://www.cs.jhu.edu/~misha/Code/GradientDomainFusion/Version1.0/, http://arxiv.org/pdf/1506.02079v1.pdf)
+1. Gradient Domain Stitching and Fusion (GDSAF: https://github.com/mkazhdan/DMG, http://www.cs.jhu.edu/~misha/MyPapers/ToG10.pdf,  http://www.cs.jhu.edu/~misha/Code/GradientDomainFusion/Version1.0/, http://arxiv.org/pdf/1506.02079v1.pdf)
 1. VESICLE (http://vcg.seas.harvard.edu/files/pfister/files/paper081.pdf?m=1462206453, http://docs.neurodata.io/vesicle/, https://github.com/neurodata/vesicle)
 1. ndparse (https://github.com/neurodata/ndparse)
 1. oopsi: calcium spike sorting  (https://github.com/jovo/oopsi)
@@ -71,48 +69,20 @@ layout: default
 
 
 
-# applications
-
-these are all papers, or results from papers, a subset of them have an existing corresponding website.  
-i imagine for each of these making a mini website with a figure, caption, and links (to free version of paper, paid version, and code/talks/posters as appropriate)
-
-note: this feels a bit forced now, in the sense that essentially each meaningful application actually comes from a data/tool project. 
-
-
-### with data project projects
-
-
-1. Nano-Cortical (Bobby paper, has project)
-1. Nano-hippocampal (Kristen paper, has project)
-1. Micro-Cortical (Eva paper, has project)
-1. Micro-molecular Cortical (Nick paper, has project)
-1. 3D Synapse Distribution (ndpaper, has project)
-1. Drosophila Neural Line-Behavior Map (has project)
-1. CLARITY classification (ndpaper?)
-
-### with tool project
-1. brain dependence stuff (mgc paper)
-1. optimal pipelines (discriminability paper)
-
-### no project
-1. sex prediction (signal subgraph)
-1. Joint C. Elegans Chemical + Electrical Connectomes (http://dx.doi.org/10.1080/21624054.2016.1142041)
-1. Micro/mammal dynamics (Hofer paper)
-1. supervenience paper
-1. individual differences (http://dx.doi.org/10.1002/hbm.23150)
-1. AD prediction
-
-
 
 # about
 
 (all this stuff is basically here: http://neurodata.io/about)
 
-- mission & values
+- about: mission & values
 - references
 - links
 - press
 - people
 - funding
+- contacts
+- privacy & terms
+- site map
+- FAQ
 - documentation?
 
