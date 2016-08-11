@@ -53,15 +53,16 @@ then, as you scroll down, you get to
 
 each "data project" could have any of the following "functionalities":
 
+(starred ones are there for *every* data project)
 
 ### ways to interact with data project that we support 
-- interactive exploration
-- share links/views of data
+- *interactive exploration
+- *share links/views of data
 - extend experiments/results
-- download data products
+- *download data products
 
 ### stuff to read
-- manuscript(s)
+- *manuscript(s)
 - media
 
 ### other stuff that one might want to with data that is harder
@@ -69,7 +70,7 @@ each "data project" could have any of the following "functionalities":
 - lots of stuff, essentially, a subset of the tools are appropriate for for each data project (different subsets for different "kinds" of data projects).
 
 
-### other info for each data project
+### other info for every data project
 - some beautiful images
 - a 1-2 sentence description
 - license info
@@ -84,25 +85,27 @@ the "data project homepage" could have a list of boxes highlighting each of the 
 
 each "tool project" could have any of the following functionalities/links:
 
+(starred ones are there for *every* data project)
+
 
 ### ways to interact with tools
 - read
-	- documentation
+	- *documentation
 	- API
 	- tutorials
 	- manuscript
 	- benchmarks
 	- installation/setup guide
-- generate issues
+- *generate issues
 - run (Web-apps available for some)
 
 ### other info for each tool project
 - webpage for tool
-- source code
-- several "highlights" bullets
+- *source code
+- *several "highlights" bullets
 - an illustrative image
-- coauthors/contributors
-- tags (eg, which modality, data type, etc.)
+- *coauthors/contributors
+- *tags (eg, which modality, data type, etc.)
 
 
 tool projects could be organized much like the data projects, a bunch of boxes, filterable by clicking various tags.
