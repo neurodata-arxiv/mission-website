@@ -17,10 +17,11 @@ layout: default
 
 ## related sites
 
+1. http://www.braininitiative.org/
 2. http://www.alleninstitute.org/ is close collaborators and closely related
 3. https://www.janelia.org/ are also close collaborators and closely related
 
-i don't particularly like them, but their institutional goals are closely related to ours
+i don't particularly like 2 or 3, especially 3, but their institutional goals are closely related to ours
 
 ## orgnaization thoughts
 
